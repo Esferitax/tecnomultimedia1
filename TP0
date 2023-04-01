@@ -1,0 +1,10 @@
+import processing.core.PImage;
+PImage imagen;
+void setup() {
+  size(800, 400);
+  imagen = loadImage("carita.jpg");
+}
+void draw() {
+  background(255);
+  image(imagen, 0, 0, 400, 400);
+}
